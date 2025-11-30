@@ -8,6 +8,8 @@ import {
   RiPhoneLine,
 } from 'react-icons/ri';
 
+import logo from '../../assets/logo.png';
+
 import MobileMenu from './MobileMenu/MobileMenu.jsx';
 
 import styles from './Header.module.css';
@@ -36,7 +38,7 @@ const Header = () => {
       <div className={styles.container}>
         <div className={styles.wrap}>
           <div className={styles.logo}>
-            <img src="/logo.png" alt="ЭКО-ТЕХ" />
+            <img src={logo} alt="ЭКО-ТЕХ" />
           </div>
 
           {!isSmallScreen && (

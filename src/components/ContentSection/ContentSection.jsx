@@ -12,22 +12,26 @@ import {
 
 import styles from './ContentSection.module.css';
 
+import house1 from '../../assets/house.jpg';
+import house2 from '../../assets/house2.jpg';
+import house3 from '../../assets/house3.jpg';
+
 const projects = [
   {
     title: 'Дом из клееного бруса «Истра»',
-    image: '/house.jpg',
+    image: house1,
     area: '137 м²',
     description: 'Наши авторские проекты',
   },
   {
     title: 'Дом из Дуба «Камчатка»',
-    image: '/house2.jpg',
+    image: house2,
     area: '176 м²',
     description: 'Наши авторские проекты',
   },
   {
     title: 'Дом из Сосны «Дубровка»',
-    image: '/house3.jpg',
+    image: house3,
     area: '200 м²',
     description: 'Наши авторские проекты',
   },
