@@ -1,0 +1,40 @@
+.bottomNav {
+  border-top: 1px solid rgb(79, 79, 79);
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 8px 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+img {
+  width: 16px;
+}
+
+.bottomNav button {
+  background: none;
+  padding: 10px;
+  border: none;
+
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.bottomNav button span {
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.bottomNav button svg {
+  font-size: 16px;
+}

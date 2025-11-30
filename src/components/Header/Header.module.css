@@ -1,0 +1,189 @@
+.container {
+  max-width: 1600px;
+  margin: 0 50px 70px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrap {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.logo img {
+  width: 140px;
+}
+
+.navDesktop {
+  display: flex;
+  gap: 33px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.downSline {
+  margin: 2px;
+  font-size: 16px;
+}
+
+.menu {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.menuButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+.searchIcon,
+.heartIcon {
+  height: 40px;
+  background-color: #eae3e199;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 11px;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+@media (max-width: 1600px) {
+  .navDesktop {
+    display: none;
+  }
+}
+
+@media (max-width: 1220px) {
+  .container {
+    margin: 0 20px 70px;
+  }
+
+  .navDesktop {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .contacts {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  .container {
+    margin: 20px 20px 60px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+}
+
+.phoneText {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 14px 20px 63px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .wrap {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .contacts {
+    width: 100%;
+    gap: 0;
+  }
+
+  .phoneText {
+    display: none;
+  }
+
+  .phoneIcon {
+    height: 40px;
+    background-color: #eae3e199;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 11px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  .searchIcon,
+  .heartIcon {
+    height: 40px;
+    background-color: #eae3e199;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 11px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  .smallMenu {
+    height: 40px;
+    background-color: #eae3e199;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 11px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+}
